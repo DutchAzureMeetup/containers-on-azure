@@ -107,6 +107,12 @@ You can use the folling ARM Template for inspiration (**there's still something 
                                 }
                             ],
                             "image": "<WEBAPP_IMAGE>",
+                            "ports": [
+                                {
+                                 "protocol": "TCP",
+                                 "port": 80
+                                }
+                            ],
                             "resources": {
                                 "requests": {
                                     "cpu": 1,
