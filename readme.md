@@ -86,12 +86,7 @@ You can use the folling ARM Template for inspiration (**there's still something 
                                 }
                             ],
                             "image": "<WEBAPI_IMAGE>",
-                            "ports": [
-                                {
-                                    "protocol": "TCP",
-                                    "port": 80
-                                }
-                            ],
+                            "ports": [],
                             "resources": {
                                 "requests": {
                                     "cpu": 1,
